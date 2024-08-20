@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "GOT";
+    src: url(../fonts/GOT.ttf);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(61, 23, 23);
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.carrossel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.informacoes {
+    display: none;
+}
+
+.informacoes.ativa {
+    display: block;
+}
+
+.conteudo {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+.informacoes h1 {
+    background-color: brown;
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 80px;
+    font-family: 'GOT', sans-serif;
+}
